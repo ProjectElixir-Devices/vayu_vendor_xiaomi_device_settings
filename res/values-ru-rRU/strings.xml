@@ -102,14 +102,6 @@
     <string name="raise_to_wake_gesture_title">Поднимите, чтобы разбудить</string>
     <string name="raise_to_wake_gesture_summary">Разбудить устройство вместо пульсирующего уведомления</string>
 
-    <!-- Haptic Feedback Level -->
-    <string name="haptic_title">Тактильный отклик</string>
-    <string name="haptic_warning">Установка слишком высокого уровня тактильного отклика может привести к необратимому повреждению оборудования, используйте на свой страх и риск</string>
-    <string name="haptic_summary">Настроить интенсивность вибрации</string>
-    <string name="haptic_level_title">Уровень</string>
-    <string name="haptic_level_summary">Величина интенсивности вибрации</string>
-    <string name="haptic_level_summary_incompatible">Ядро не поддерживает эту функцию</string>
-
     <!-- Refresh Rate tile -->
     <string name="refresh_rate_tile_title">Частота обновления</string>
 
