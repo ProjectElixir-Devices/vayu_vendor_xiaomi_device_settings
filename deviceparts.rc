@@ -24,3 +24,9 @@ on boot
     # FPS Info permissions
     chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
     chmod 0666 /sys/class/drm/sde-crtc-0/measured_fps
+
+on property:persist.deviceparts.lcd.hbm=*
+    write /sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm ${persist.deviceparts.lcd.hbm}
+
+on property:persist.deviceparts.lcd.cabc=*
+    write /sys/devices/platform/soc/soc:qcom,dsi-display-primary/cabc ${persist.deviceparts.lcd.cabc}
