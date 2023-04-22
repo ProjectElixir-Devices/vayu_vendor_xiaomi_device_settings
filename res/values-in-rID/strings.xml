@@ -102,14 +102,6 @@
     <string name="raise_to_wake_gesture_title">Raise to wake</string>
     <string name="raise_to_wake_gesture_summary">Bangunkan perangkat alih-alih notifikasi yang berdenyut</string>
 
-    <!-- Haptic Feedback Level -->
-    <string name="haptic_title">Haptic Feedback Level</string>
-    <string name="haptic_warning">Menyetel tingkatan haptic terlalu tinggi dapat menyebabkan kerusakan perangkat keras permanen, gunakan dengan resiko Anda sendiri</string>
-    <string name="haptic_summary">Sesuaikan intensitas getaran</string>
-    <string name="haptic_level_title">Tingkatan</string>
-    <string name="haptic_level_summary">Jumlah intensitas getaran</string>
-    <string name="haptic_level_summary_incompatible">Kernel tidak mendukung fitur ini</string>
-
     <!-- Refresh Rate tile -->
     <string name="refresh_rate_tile_title">Refresh Rate</string>
 

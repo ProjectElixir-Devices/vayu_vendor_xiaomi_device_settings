@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2018 The LineageOS Project
+     Copyright (C) 2021 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License"
      you may not use this file except in compliance with the License.
@@ -14,19 +14,24 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/lcd_features_title" >
 
-    <org.lineageos.settings.widget.SeekBarPreference
-        android:key="haptic_level_pref"
-        android:title="@string/haptic_level_title"
-        android:summary="@string/haptic_level_summary"
-        android:layout="@layout/preference_slider"
-        android:defaultValue="@integer/haptic_level_default"
-        android:max="@integer/haptic_level_max" />
+    <SwitchPreference
+        android:key="hbm_pref"
+        android:title="@string/lcd_hbm_title" />
+
+    <ListPreference
+        android:key="cabc_pref"
+        android:title="@string/lcd_cabc_title"
+        android:entries="@array/lcd_cabc_modes"
+        android:entryValues="@array/lcd_cabc_values"
+        android:defaultValue="0" />
 
     <com.android.settingslib.widget.FooterPreference
-        android:key="haptic_footer_preference"
-        android:title="@string/haptic_warning"
+        android:key="lcd_features_footer"
+        android:title="@string/lcd_features_info"
         android:selectable="false"
         android:layout="@layout/preference_footer" />
 
